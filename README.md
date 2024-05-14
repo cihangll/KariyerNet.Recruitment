@@ -32,8 +32,6 @@ Uygulamaları ayağa kaldırmak için `KariyerNet.Recruitment.AuthServer` ve `Ka
 
 ![auth-server-app-screenshot](./ProjectFiles/Images/auth-server-app-screenshot.png)
 
-![auth-server-app-screenshot](./ProjectFiles/Images/auth-server-app-screenshot.png)
-
 `KariyerNet.Recruitment.HttpApi.Host` Uygulaması ekran görüntüsü
 
 ![host-app-screenshot](./ProjectFiles/Images/host-app-screenshot.png)
