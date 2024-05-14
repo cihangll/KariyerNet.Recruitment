@@ -152,7 +152,7 @@ public class JobAdvertAppService
 			input.PositionId,
 			input.Description,
 			Clock.Now,
-			Clock.Now.AddDays(14),
+			Clock.Now.AddDays(15),
 			null,
 			input.WorkType,
 			input.Salary,
