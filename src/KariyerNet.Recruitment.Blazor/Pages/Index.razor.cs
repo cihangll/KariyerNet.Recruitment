@@ -1,0 +1,6 @@
+﻿namespace KariyerNet.Recruitment.Blazor.Pages;
+
+public partial class Index
+{
+
+}

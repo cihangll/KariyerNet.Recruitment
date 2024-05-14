@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>KariyerNet.Recruitment</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KariyerNet.Recruitment.Domain\KariyerNet.Recruitment.Domain.csproj" />
+    <ProjectReference Include="..\KariyerNet.Recruitment.Application.Contracts\KariyerNet.Recruitment.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Account.Application" Version="8.1.1" />
+    <PackageReference Include="Volo.Abp.EventBus.RabbitMQ" Version="8.1.1" />
+    <PackageReference Include="Volo.Abp.Identity.Application" Version="8.1.1" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="8.1.1" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="8.1.1" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="8.1.1" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="8.1.1" />
+  </ItemGroup>
+
+</Project>

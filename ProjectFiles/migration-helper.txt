@@ -1,0 +1,7 @@
+﻿# Open a command-line terminal in the directory of the Turkuaz.Integration.EntityFrameworkCore project and type the following command:
+dotnet ef migrations add YOUR_MIGRATION_NAME --context IntegrationDbContext
+
+#example
+dotnet ef migrations add Created_Entity_StockWarehouseTransfer --context IntegrationDbContext
+
+Daha sonra Turkuaz.Integration.DbMigrator'u çalıştır.
